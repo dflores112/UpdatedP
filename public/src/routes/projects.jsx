@@ -4,8 +4,53 @@ import { Link } from 'react-router-dom';
 export default function Projects() {
   return (
     <main style={{ padding: '1rem 0' }}>
-      <h2>Projects</h2>
+
       <Link className="hover:rounded-full hover:bg-amber-500 text-center p-4 cursor-pointer" to="/">Home</Link>
+      <div className="px-36 mt-36 flex justify-between mb-8">
+
+        <div className="mr-8">
+          <div className="mb-6">
+            <img src="https://lookeducation.com.au/wp-content/uploads/image-insights-marketing-strategies-2020.jpg" className="object-contain rounded h-56" />
+          </div>
+          <div className="text-white flex flex-col">
+            <div className="mb-2 text-2xl font-extrabold">
+              Project 1
+            </div>
+            <p className="card-description leading-5 tracking-wide">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+        <div className="mr-8">
+          <div className="mb-6">
+            <img src="https://lookeducation.com.au/wp-content/uploads/image-insights-marketing-strategies-2020.jpg" className="object-contain rounded h-56" />
+          </div>
+          <div className="text-white flex flex-col">
+            <div className="mb-2 text-2xl font-extrabold">
+              Project 2
+            </div>
+            <p className="card-description leading-5 tracking-wide">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+        <div className="mr-8">
+          <div className="mb-6">
+            <img src="https://lookeducation.com.au/wp-content/uploads/image-insights-marketing-strategies-2020.jpg" className="object-contain rounded h-56" />
+          </div>
+          <div className="text-white flex flex-col">
+            <div className="mb-2 text-2xl font-extrabold">
+              Project 3
+            </div>
+            <p className="card-description leading-5 tracking-wide">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+      </div>
     </main>
   );
 }
