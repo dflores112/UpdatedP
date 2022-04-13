@@ -14,3 +14,13 @@ h1{
 .card-description{
     color:hsla(0,0%,100%,.56);
 }
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover .card-title{
+    color: #2f77eb;
+    
+}
+
